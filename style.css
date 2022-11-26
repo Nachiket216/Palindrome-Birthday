@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;700&display=swap');
+
+:root {
+    --primary-color:#5CDB95 ;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+    --back-color:black;
+  }
+
+body{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    margin:auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+header{
+    font-size: medium;
+    margin: 1rem;
+    margin-bottom: 0%;
+}
+
+p{
+    width: 20rem;
+    margin: 2rem auto 2rem;
+    /* margin: 2rem,auto,2rem,auto; */
+}
+
+.container{
+    max-width: 600px;
+    margin: 0rem auto 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input,
+button {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+  text-align: center;
+  font-size: 1rem;
+  margin: 1.3rem;
+  padding: 0.5rem;
+  width: 12rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.2rem;
+  outline: none;
+}
+
+input{
+    width: 11rem;
+}
+
+button {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+input:hover{
+    background-color: var(--off-white);
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--off-white);
+}
+
+#output{
+    margin: auto;
+    padding: 0.5rem;
+}
+
+footer{
+    margin-top: auto;
+    padding: 1.4rem;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.footer-header{
+    font-size: larger;
+}
+.link {
+    padding: 1.3rem;
+    text-decoration: none;
+    color: var(--back-color);
+}
+a:hover{
+    color: var(--off-white);
+}
+.list-item-inline{
+    display: inline;
+    list-style : none;
+}
